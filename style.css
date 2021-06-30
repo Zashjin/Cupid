@@ -104,6 +104,154 @@ form {
 
 form label {
   font-weight: bold;
+  width: 200px;
+}
+
+form select,
+form input {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+form button {
+  background-color: #83092e;
+  border: none;
+  color: #fff;
+  font-size: 24px;
+  padding: 15px;
+  width: 100%;
+}
+
+form div {
+  display: flex;
+  flex-flow: row;
+  align-content: flex-start;
+}
+/* -------  Footer ------- */
+
+footer {
+  background-color: #83092e;
+}
+
+footer p {
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+
+/* -------  Media Query ---------------------------------------------------------------------------------------------- */
+@media all and (min-width: 480px) {
+  body {
+    font-family: "Lato", sans-serif;
+    color: #6b1a22;
+  }
+  
+  h2 {
+    font-size: 26px;
+    font-weight: 400;
+    margin: 0 10px 15px 10px;
+    text-align: center;
+  }
+  
+  h3 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  p {
+    line-height: 1.5em;
+    margin: 0;
+  }
+  
+  section {
+    padding: 20px;
+  }
+  
+  section.alternate-background {
+    background-color: #a35766;
+    color: #ecdbc9;
+  }
+  
+  main img {
+    width: 75%;
+  }
+  
+  /* ---  Groups & Items --- */
+  
+  .group {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  }
+  .row {
+    display :flex;
+    flex-direction: row;
+  }
+  
+  .item {
+    flex: 1;
+    margin: 10px;
+  }
+  
+  .item-double {
+    flex: 2;
+  }
+  .vert {
+    vertical-align: center;
+  }
+  
+  
+  
+header {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #83092e;
+  padding: 40px ;
+  
+}
+
+.logo {
+  font-family: "Tangerine", cursive;
+  font-size: 72px;
+  color: #ecdbc9;
+}
+
+header nav ul li {
+  
+  justify-content:center;
+  padding:20px 0px 0px 20px;
+  list-style-type: none;
+}
+
+header nav ul li a {
+  
+  color: #ecdbc9;
+  text-decoration: none;
+  padding: 0 20px 0 0;
+}
+
+header nav ul li a:hover {
+  color: #bdbdbd;
+  text-decoration: none;
+}
+
+/* -------  Join Form ------- */
+form {
+  
+  border: 2px solid #6b1a22;
+  padding: 10px;
+  flex-grow: 1;
+}
+
+form label {
+  font-weight: bold;
  
 }
 
@@ -134,5 +282,4 @@ footer p {
   text-align: center;
   padding: 20px;
 }
-
-/* -------  Media Query ------- */
+}
