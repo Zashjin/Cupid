@@ -400,7 +400,7 @@ body {
     flex-direction:column;
     padding-top: 7%;
   }
-   aboutp {
+   .aboutp {
     display: flex;
     padding-top:4%;
    }
