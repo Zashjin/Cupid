@@ -400,6 +400,10 @@ body {
     flex-direction:column;
     padding-top: 7%;
   }
+   aboutp {
+    display: flex;
+    padding-top:4%;
+   }
   .formpic {
     max-width: 66%;
   }
